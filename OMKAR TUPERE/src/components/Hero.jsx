@@ -1,4 +1,4 @@
-import profilePic from "../assets/raviKumarProfile.webp";
+import profilePic from "../assets/omkarTupere.jpeg";
 import { HERO_CONTENT } from "../constants";
 function Hero() {
   return (
