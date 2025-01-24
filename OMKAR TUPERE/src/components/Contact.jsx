@@ -21,7 +21,7 @@ const Contact = () => {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/contact/submit",
+        "https://resume-portfolio-api.vercel.app/",
         formData
       );
 
