@@ -23,6 +23,9 @@ mongoose
 app.use("/api/contact", contactRoutes);
 
 const PORT = process.env.PORT || 5000;
+app.get("/ping", (req, res) => {
+  res.send("PONG");
+});
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
