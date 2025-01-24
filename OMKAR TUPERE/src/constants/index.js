@@ -71,6 +71,6 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "MIT World Peace University, Pune ",
-  phoneNo: "+91 9172577167 ",
+  phoneNo: "+91 123-456-789 ",
   email: "tupereomkar@gmail.com",
 };
